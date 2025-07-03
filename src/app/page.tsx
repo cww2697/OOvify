@@ -52,7 +52,7 @@ export default function Home() {
                     {translatedText && (
                         <button
                             onClick={() => navigator.clipboard.writeText(translatedText)}
-                            className="absolute top-2 right-2 p-1 rounded hover:bg-gray-200 dark:hover:bg-zinc-700 transition"
+                            className="absolute top-2 right-2 p-1 rounded hover:bg-gray-200 dark:hover:bg-zinc-700 active:bg-gray-200 dark:active:bg-zinc-700 transition"
                             aria-label="Copy to clipboard"
                         >
                             <ClipboardDocumentIcon className="h-5 w-5 text-gray-600 dark:text-gray-400" />
